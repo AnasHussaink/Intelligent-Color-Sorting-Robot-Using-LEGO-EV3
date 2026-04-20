@@ -27,6 +27,52 @@ This project implements an **automated color-sorting mechatronic system** using 
 
 <img width="1208" height="699" alt="image" src="https://github.com/user-attachments/assets/091b6efd-d201-4f70-84bb-497c3c9d83ac" />
 
+In this project, you will remotely or physically access the manipulator in Figure 1 and program it in MicroPython to achieve a set of pick-and-place tasks.
+
+
+The manipulator is driven by three actuators(See Figure 2):
+
+Three motors
+In addition to the three actuators, there are also five sensors (See Figure 2):
+
+Two touch sensors
+Three encoders
+
+<img width="820" height="703" alt="image" src="https://github.com/user-attachments/assets/a470ae37-6130-43fe-addb-ff0a0bdf04e3" />
+
+In addition to the manipulator the conveyor has one motor with encoder and one color sensor.
+
+The manipulator is made of five links (See Figure 3):
+
+Link-0 (to be measured by you)
+Link-1 of 50mm
+Link-2 of 95mm
+Link-3 of 185mm
+Link-4 of 110mm
+ 
+
+It is kinematically constrained and among kinematic constraints include:
+
+Link-1 is rigidly connected to link-2 at an obtuse angle of 135°
+Link-4 is always perpendicular to the ground plane
+The rotation of link-3 is bound by link-2 on the lower side and a touch sensor on the upper side
+The base rotation is bound by a touch sensor on one side
+
+<img width="998" height="826" alt="image" src="https://github.com/user-attachments/assets/cbd3b49b-4c1b-4a0a-a375-49ca7eb99692" />
+
+<img width="1359" height="521" alt="image" src="https://github.com/user-attachments/assets/b3f071ca-0fe2-4b4f-8ef9-6e68f98286dd" />
+
+The operating area is made of 5 stations / locations (See Figure 5). 
+
+ Station 1: This is the position in which the touch sensor of the base is pressed. Height is Z = 0
+ Station 2: This is the position on the opposite side of Station 1. Height is Z =0
+ Station 3: This is the position on the left end side of the conveyor.
+ Station 4: This is the position on the right end side of the conveyor.
+ Station 5: This is the position in the middle of the conveyor. Height Z must be selected by the user. 
+
+ <img width="1275" height="783" alt="image" src="https://github.com/user-attachments/assets/225f83fa-ba67-43b4-961a-f9593507d0dc" />
+
+
 
 | Color | Action |
 |-------|--------|
