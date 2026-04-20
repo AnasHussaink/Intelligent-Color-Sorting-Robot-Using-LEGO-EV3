@@ -1,0 +1,21 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "files.associations": {
+      "*.py": "python"
+    },
+    "python.defaultInterpreterPath": "/usr/bin/python3",
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true
+  },
+  "extensions": {
+    "recommendations": [
+      "lego-education.ev3-micropython",
+      "ms-python.python"
+    ]
+  }
+}

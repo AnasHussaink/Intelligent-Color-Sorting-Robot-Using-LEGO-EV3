@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# EV3 build artifacts
+*.elf
+*.bin
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/settings.json
+.vscode/launch.json
+
+# Video files (too large for git — use sciebo or LFS)
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Keep media folder structure
+!media/.gitkeep
