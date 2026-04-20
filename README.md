@@ -238,45 +238,6 @@ In this project the EV3 built-in motor controller uses encoder feedback internal
 
 ---
 
-## 📁 File Structure
-
-```
-ev3-color-sorting/
-│
-├── README.md                  # This file
-├── src/
-│   └── main.py                # Main EV3 MicroPython program
-│
-├── docs/
-│   ├── kinematics.md          # Detailed kinematic derivations
-│   └── pid_controller.md      # PID controller explanation
-│
-├── report/
-│   └── Project_Report.pdf     # Full lab report (Group 6)
-│
-└── media/
-    └── (video proof, photos)
-```
-
----
-
-## 👥 Team
-
-**Group 6 — Mechatronics System Laboratory, University of Siegen**
-
-| Name | Student ID |
-|------|-----------|
-| Muhammad Ammar Khalid | 1888137 |
-| Abdullah Ansari | 1907221 |
-| Anas Hussain Khan | 1899364 |
-| Taha Yaseen | 1888450 |
-| Syed Faraz Azeem | 1903674 |
-| Kashif Matti | 1898411 |
-
-**Supervisor:** Mr. Peter Sahm
-
----
-
 ## 🏷️ Keywords
 
 `LEGO EV3` `MicroPython` `Pybricks` `Mechatronics` `Robotics` `Manipulator` `Pick-and-Place` `Color Sorting` `Inverse Kinematics` `Conveyor Belt` `Embedded Systems` `Automation` `PID Controller` `University of Siegen` `EV3 MicroPython` `Industrial Robotics` `Articulated Robot` `Touch Sensor` `Color Sensor` `Geometric Kinematics`
