@@ -72,6 +72,8 @@ The operating area is made of 5 stations / locations (See Figure 5).
 
  <img width="1275" height="783" alt="image" src="https://github.com/user-attachments/assets/225f83fa-ba67-43b4-961a-f9593507d0dc" />
 
+ 
+
 
 
 | Color | Action |
