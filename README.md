@@ -17,8 +17,6 @@
 - [Color Sorting Logic](#-color-sorting-logic)
 - [PID Controller](#-pid-controller)
 - [Getting Started](#-getting-started)
-- [File Structure](#-file-structure)
-- [Team](#-team)
 
 ---
 
