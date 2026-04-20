@@ -1,20 +1,8 @@
 # 🤖 EV3 Manipulator Robot — Color Sorting with Conveyor
 
-✔️ 3-DOF Robotic Arm Model
-Developed using geometric inverse kinematics for precise and accurate positioning
-✔️ Homing Mechanism
-Implemented using touch sensors to ensure consistent reference alignment
-✔️ Real-Time Color Detection
-Engineered RGB calibration for reliable detection of Black, Green, Red, and Blue objects
-✔️ Intelligent Sorting Algorithm
-Black → Station 3
-Green → Station 4
-Blue → Station 1
-Red → Station 2
-✔️ Pick-and-Place Automation
-Executed smooth and synchronized operations with conveyor belt integration
-✔️ PID Control Integration
-Applied control theory to improve motion stability and system responsiveness
+This project presents the design and implementation of an Intelligent Color-Sorting Robot using LEGO EV3, developed to demonstrate the integration of robotics, control systems, and real-time sensing. The system features a 3-DOF articulated robotic arm combined with a conveyor-based material handling mechanism, capable of autonomously detecting, classifying, and sorting colored objects into predefined stations.
+
+By leveraging geometric inverse kinematics, sensor-based feedback, and PID control principles, the robot achieves accurate positioning, stable motion, and reliable operation. The implementation uses MicroPython (Pybricks) to enable modular, efficient, and scalable control logic. This project highlights practical applications of automation and embedded systems, reflecting real-world industrial pick-and-place and sorting processes.
 
 ![Platform](https://img.shields.io/badge/Platform-LEGO%20EV3%20MicroPython-yellow)
 ![Language](https://img.shields.io/badge/Language-MicroPython-blue)
