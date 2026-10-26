@@ -1,5 +1,9 @@
 # Intelligent Color-Sorting Robot — LEGO EV3
 
+
+https://github.com/user-attachments/assets/3cae18f2-3711-4956-8b09-2a6487875c08
+
+
 An automated robotic sorting system built with LEGO MINDSTORMS EV3 and MicroPython/Pybricks. A conveyor transports colored objects to a sensing point, where the robot classifies each object and routes it directly or performs a pick-and-place operation.
 
 ## Goals
