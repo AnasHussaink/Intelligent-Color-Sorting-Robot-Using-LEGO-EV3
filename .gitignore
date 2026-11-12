@@ -23,3 +23,11 @@ Thumbs.db
 
 # Keep media folder structure
 !media/.gitkeep
+
+# Local validation and build output
+.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.pio/
+build/
