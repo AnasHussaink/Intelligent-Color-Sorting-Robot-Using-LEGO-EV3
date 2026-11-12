@@ -70,3 +70,14 @@ Robotics · Embedded Systems · MicroPython · Kinematics · Sensors · Motor Co
 ## License
 
 See LICENSE.
+
+
+## Development and quality
+
+[![Repository quality](https://github.com/AnasHussaink/Intelligent-Color-Sorting-Robot-Using-LEGO-EV3/actions/workflows/quality.yml/badge.svg)](https://github.com/AnasHussaink/Intelligent-Color-Sorting-Robot-Using-LEGO-EV3/actions/workflows/quality.yml)
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for branch/PR workflow, local checks and CI coverage.
+
+## Technical scope
+
+LEGO EV3 robotics with MicroPython, Pybricks, color sorting, sensor calibration, inverse kinematics and pick-and-place automation.
